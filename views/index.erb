@@ -1,4 +1,6 @@
 <div style='border: 3px dashed red'>
-  <h1> My Name Is <%= @name %></h1> 
+  <%= if @name %>
+  <h1> My Name Is <%= @name %></h1>
+  <% end %>
   <img src='http://bit.ly/1eze8aE'>
  </div>
