@@ -1,6 +1,6 @@
 require 'sinatra'
 
-get '/random-cat' do
+get '/named-cat' do
   p params
   @name = params[:name]
   erb(:index)
